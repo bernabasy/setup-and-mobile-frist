@@ -2,9 +2,7 @@
 
 # setup-and-mobile-frist
 
-> my second project in microvers
-
-
+> perpar mobile poritifolio
 ## Built With
 
 - html
