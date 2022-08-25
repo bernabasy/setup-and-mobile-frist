@@ -65,8 +65,6 @@ ul {
 
 .headline {
   background-image: url("image/header-shapes-mobile.png");
-<<<<<<< HEAD
-=======
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -76,7 +74,6 @@ ul {
 
 .headline-2 {
   background-image: none;
->>>>>>> b422dee004dac4db0e3411fe1a91d8829080cee0
   display: flex;
   flex-direction: column;
   align-items: flex-start;
