@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# setup-and-mobile-frist
+# deskyop vertion responisive web design
 
-> perpar mobile poritifolio
+> perpar deskyop vertion responisive web design for 768px size
 ## Built With
 
 - html
