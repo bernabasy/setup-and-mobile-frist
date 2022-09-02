@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# deskyop vertion responisive web design
+# deskyop vertion portoflio 
 
-> perpar deskyop vertion responisive web design for 768px size
+> perpar deskyop vertion deskyop vertion portoflio with responisive web design for 768px size
 ## Built With
 
 - html
