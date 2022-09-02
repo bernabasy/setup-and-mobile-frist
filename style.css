@@ -4,9 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* overflow-x: hidden;
-  width: 100%; */
 }
 
 body {
@@ -14,8 +11,6 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-
-  /* width: 100%; */
 }
 
 .wrapper {
@@ -27,7 +22,7 @@ body {
     width: 100%;
     align-items: center;
     max-height: 5125px;
-    background: #e5e5e5;
+    background: #f8f7f7;
   }
 }
 
@@ -75,8 +70,8 @@ header {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 20px;
-    padding-right: 100px;
+    gap: 12px;
+    padding-right: 150px;
   }
 }
 
@@ -125,21 +120,23 @@ ul {
   .headline {
     height: 916px;
     border-bottom-left-radius: 60px;
+    background-repeat: no-repeat;
     background-image: url("image/desiktop-images/Header-bg-2.svg");
-    background-size: 90%;
-    background-position: 1000px 30px;
+    background-size: 100%;
+    background-position: 50% 50%;
   }
 }
 
 @media (min-width: 768px) {
   .left-box-about-myself {
-    width: 27%;
+    width: 40%;
+    padding-left: 9%;
   }
 }
 
 @media (min-width: 768px) {
   .right-box-of-about-myself {
-    width: 47%;
+    width: 50%;
   }
 }
 
@@ -175,12 +172,8 @@ ul {
     font-size: 25px;
     line-height: 30px;
     color: #344563;
-    max-width: 1150px;
-
-    /* padding-top: -6%; */
+    max-width: 920px;
     margin-left: 13%;
-
-    /* padding-bottom: -300px; */
   }
 }
 
@@ -269,14 +262,6 @@ ul {
   }
 }
 
-@media (min-width: 500px) {
-  .card-work {
-    display: flex;
-    flex-direction: column;
-    color: #000;
-  }
-}
-
 .tonic-img-desctop {
   display: none;
 }
@@ -291,20 +276,11 @@ ul {
 
 @media (min-width: 768px) {
   .card-work {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-height: 496px;
-    gap: 40px;
-    border: 1px solid #dfe1e6;
-    border-radius: 24px;
-    width: 100%; */
-
     display: flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 1%;
     justify-content: space-around;
-    background-color: #6070ff;
+    background-color: #fff;
   }
 }
 
@@ -314,19 +290,19 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 12px;
+  gap: 16px;
 }
 
 @media (min-width: 768px) {
   .left-block {
-    background-color: #dfe1e6;
-    height: 97%;
+    background-color: #fff;
+
+    /* height: 97%; */
     padding-left: 5%;
     padding-top: 5%;
+    height: 445px;
   }
-}
 
-@media (min-width: 768px) {
   .right-block {
     display: flex;
     align-items: center;
@@ -351,7 +327,7 @@ ul {
 }
 
 .header-details .client {
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 13px;
   line-height: 16px;
   color: #172b4d;
@@ -373,10 +349,11 @@ ul {
 }
 
 .project-details {
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  width: 96%;
 }
 
 .tags {
@@ -432,6 +409,15 @@ ul {
     display: flex;
     justify-content: center;
   }
+
+  .container-img-big {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-curser {
+    padding-right: 100px;
+  }
 }
 
 /* 4th scontainer of works section  startes here */
@@ -447,6 +433,8 @@ ul {
 
   .card-work-desktop-4 {
     display: flex;
+    height: auto;
+    width: 98%;
   }
 }
 
@@ -577,6 +565,7 @@ ul {
 
 .skill-list {
   padding: 12px;
+  padding-left: 1px;
 }
 
 .skill-title {
@@ -747,4 +736,10 @@ ul {
 .btn-default:hover {
   background: transparent;
   color: #fff;
+}
+
+@media (min-width: 768px) {
+  .btn-default {
+    margin-left: 38%;
+  }
 }
