@@ -145,6 +145,20 @@ ul {
   font-size: 38px;
   line-height: 52px;
   color: #091e42;
+  transition: ease-in-out transform 0.5;
+  transform: translate(0);
+}
+
+.title:hover {
+  transform: rotateY(45deg);
+}
+
+.works img {
+  transition: ease-in-out transform 0.5;
+}
+
+.works img:hover {
+  transform: scale(1.2);
 }
 
 @media (min-width: 768px) {
@@ -156,6 +170,21 @@ ul {
     padding-top: 13%;
     line-height: 52px;
     color: #172b4d;
+    transition: ease-in-out transform 0.5;
+  }
+
+  .works img {
+    transition: ease-in-out transform 0.5;
+  }
+
+  .works img:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 768px) {
+  .title:hover {
+    transform: rotateY(45deg);
   }
 }
 
@@ -580,7 +609,8 @@ ul {
   outline: none;
   padding: 8px;
   background: transparent;
-  cursor: pointer;
+
+  /* cursor: pointer; */
 }
 
 .language-list {
@@ -678,6 +708,7 @@ ul {
   line-height: 28px;
   text-align: center;
   color: #fffefe;
+  transition: ease-in-out transform 0.5;
 }
 
 .project-text2 {
@@ -690,6 +721,8 @@ ul {
   color: #ffff;
   margin-bottom: 5px;
   margin-top: 10px;
+  transition: ease-out 0.5 transform;
+  transition-delay: 0.2s;
 }
 
 .contacte-form {
@@ -736,6 +769,7 @@ ul {
 .btn-default:hover {
   background: transparent;
   color: #fff;
+  transform: rotateY(45deg);
 }
 
 @media (min-width: 768px) {
