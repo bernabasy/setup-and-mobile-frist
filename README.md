@@ -1,8 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# deskyop vertion portoflio 
+# my Portfolio
 
-> perpar deskyop vertion deskyop vertion portoflio with responisive web design for 768px size
+> The  portfolio live demo
+ 
+ checkout the live demo at https://bernabasy.github.io/setup-and-mobile-frist/
+
+
 ## Built With
 
 - html
