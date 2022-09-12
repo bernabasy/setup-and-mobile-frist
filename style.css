@@ -438,6 +438,8 @@ ul {
   transform: rotateY(45deg);
 }
 
+/* mediaquri part */
+
 @media (min-width: 768px) {
   .wrapper {
     width: 100%;
@@ -448,6 +450,7 @@ ul {
 
   header {
     height: 72px;
+    width: 100%;
   }
 
   .logo-a {
@@ -725,3 +728,5 @@ ul {
     margin-left: 38%;
   }
 }
+
+
