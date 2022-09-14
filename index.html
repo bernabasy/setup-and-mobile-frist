@@ -5,25 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-    <title>Portfolio</title>
+<title>Portfolio</title>
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <div class="logo-a">My logo</div>
-        <button class="btn-heder">
-        <img class="image-des" src="image/Union.png" alt="menu button" />
-        <img class="icone-clos" src="image/Vector.png" alt="menu button"/>
-        <span class="visualliy-hidden">menu</span>
+        <header id="navbar">
+          <nav class="navbar-container">
+              <div class="navbar-logo">
+              My logo</div>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
-        <nav class="primery-navigathion" id= primery-navigathion >
-          <ul aria-label="primary"  class="header-nav">
-            <li><a href="#"></a> Portoflio</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Contact</li>
-          </ul>
-        </nav>
+      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links" id="navbar-item">
+          <li class="navbar-item">Portoflio</li>
+          <li class="navbar-item">About</li>
+          <li class="navbar-item">Contact</li>
+        </ul>
+      </div>
+     </nav>
         </header>
       <main>
         <section class="headline">
@@ -454,6 +456,7 @@
         </section>
       </main>
     </div>
+    <script src="main.js" ></script>
     <!-- End  -->
   </body>
 </html>
