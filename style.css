@@ -919,9 +919,9 @@ ul {
     position: static;
     flex-direction: row;
     width: 250px;
-   padding-right: 150px;
-   float: right;
-   padding-top: 15px;
+    padding-right: 150px;
+    float: right;
+    padding-top: 15px;
   }
 
   .navbar-container {
