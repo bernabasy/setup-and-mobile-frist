@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
 
   /* align-items: center; */
@@ -445,14 +445,6 @@ ul {
     width: 100%;
   }
 
-  /* .navbar-logo {
-    background-color: var(--navbar-text-color-focus);
-    border-radius: 50%;
-    width: 250px;
-    height: 30px;
-    margin-right: 0.5em;
-  } */
-
   .navbar-logo {
     font-style: normal;
     padding: 20px;
@@ -462,6 +454,7 @@ ul {
     line-height: 20px;
     display: flex;
     color: #5e70f4;
+    width: 250px;
   }
 
   .navbar-item {
@@ -501,7 +494,7 @@ ul {
     height: 916px;
     border-bottom-left-radius: 60px;
     background-repeat: no-repeat;
-    background-image: url("image/desiktop-images/Header-bg-2.svg");
+    background-image: url("image/desiktop-images/Header-big-back.png");
     background-size: 100%;
     background-position: 50% 50%;
   }
@@ -848,7 +841,8 @@ ul {
   visibility: hidden;
   left: 0;
   right: 0;
-  padding-left: 65em;
+
+  /* padding-left: 65em; */
 }
 
 #navbar-toggle[aria-expanded="true"] + #navbar-menu {
@@ -888,6 +882,7 @@ ul {
     position: static;
     display: block;
     height: 100%;
+    padding-right: 70px;
   }
 
   #navbar-toggle[aria-expanded="true"] + #navbar-menu {
